@@ -1,0 +1,16 @@
+{
+  "name": "pro-git",
+  "version": "1.0.0",
+  "description": "A project to show various chart based on Github",
+  "main": "server.js",
+  "start": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Babu Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "github-api": "^3.2.2"
+  }
+}

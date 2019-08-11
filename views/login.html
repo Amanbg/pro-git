@@ -1,0 +1,24 @@
+<div class="container" ng-controller="login">
+    <div class="col-md-12 center-text">
+        <div class="col-md-4 offset-4">
+            <img class="logo" src="img/github-logo-transparent.jpeg" alt="A GitHub logo">
+            <h1>Pro Git</h1>
+        </div>
+    </div>
+    <form class="login-form form-box box">
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <input type="text" id="login" ng-model="username" class="form-control form-field" name="username" placeholder="Username" required>
+            </div>
+            <div class="col-md-12 form-group">
+                <input type="password" id="password" ng-model="password" class="form-control form-field" name="password" placeholder="Password" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <button type="submit" ng-click="login()" class="btn btn-primary btn-block login-btn">LOG IN</button>
+            </div>
+            <div class="col-md-12" style="color:red" ng-show="isLoginError">{{error}}</div>
+        </div>
+    </form>
+</div>

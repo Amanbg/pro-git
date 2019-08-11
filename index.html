@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="pro-git">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Git</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="vendor/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-header" ui-view="header"></div>
+        <div ui-view="mainContent" class="content-wrapper">
+        </div>
+        <div class="footer-style" ui-view="footer"></div>
+    </div>
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="app.js"></script>
+<script src="routes.js"></script>
+<script src="js/controllers/dashboard.js"></script>
+<script src="js/controllers/login.js"></script>
+<script src="js/services/loginService.js"></script>
+
+</html>

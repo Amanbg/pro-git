@@ -1,0 +1,22 @@
+{
+  "name": "pro-git",
+  "description": "A project to show various chart based on Github",
+  "main": "server.js",
+  "authors": [
+    "Aman Babu Gautam"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "angular": "angularjs#^1.7.8",
+    "angular-ui-router": "^1.0.22"
+  }
+}

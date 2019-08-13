@@ -15,9 +15,11 @@
 <body>
     <div class="wrapper">
         <div class="main-header" ui-view="header"></div>
-        <div ui-view="mainContent" class="content-wrapper">
+        <div ui-view="mainContent" class="content-wrapper main-content">
         </div>
+        <div class="sidebar-style" ui-view="sidebar"></div>
         <div class="footer-style" ui-view="footer"></div>
+
     </div>
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>

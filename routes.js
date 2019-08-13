@@ -19,6 +19,9 @@ angular.module('pro-git').config(['$stateProvider', '$urlRouterProvider', '$loca
                 "header": {
                     'templateUrl': "views/header.html"
                 },
+                "sidebar": {
+                    'templateUrl': "views/sidebar.html"
+                },
                 "footer": {
                     'templateUrl': "views/footer.html"
                 }

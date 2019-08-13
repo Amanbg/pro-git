@@ -17,6 +17,7 @@ body {
     overflow-y: auto;
 }
 
+/*-----------------LOGIN-----------------*/
 .center-text {
     margin-top: 15%;
     text-align: center;
@@ -70,6 +71,7 @@ body {
 }
 
 
+/*-----------------LOGO-----------------*/
 .logo {
     float: left;
     height: 50px;
@@ -86,6 +88,7 @@ body {
     margin: 0 auto;
 }
 
+/*-----------------HEADER-----------------*/
 .header-style {
     width: 100%;
     height: auto;
@@ -113,12 +116,32 @@ body {
     cursor: pointer;
 }
 
+.main-nav li:hover {
+    background: transparent;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 4px 3px;
     text-decoration: none;
+    color:black;
 }
 
 .main-nav li a i {
     font-size: 18px;
 }
+
+/*------------------FOOTER------------------*/
+.main-footer {
+    padding-left: 30%;
+    padding-right: 30%;
+    border-top:1px solid #daf3f2;
+    color:#000;
+    padding-top:20px;
+}
+
+.main-footer p{
+    font-size:12px;
+}
+
+

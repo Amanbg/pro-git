@@ -20,7 +20,7 @@ angular.module('pro-git').config(['$stateProvider', '$urlRouterProvider', '$loca
                     'templateUrl': "views/header.html"
                 },
                 "footer": {
-
+                    'templateUrl': "views/footer.html"
                 }
             }
         })

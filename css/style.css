@@ -1,5 +1,20 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
 body {
-    font-family: Arial, Helvetica, serif;
+    background-color: #fff;
+    font-family: 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .center-text {
@@ -50,6 +65,60 @@ body {
     border-color: #3ea952;
 }
 
-.form-field{
-    border : 1px solid #e2e8f5;
+.form-field {
+    border: 1px solid #e2e8f5;
+}
+
+
+.logo {
+    float: left;
+    height: 50px;
+    width: 70px;
+    font-size: 90%;
+    margin-top: 18px;
+    color: #d6b161;
+    margin-left: 20px;
+    letter-spacing: 1.1px;
+}
+
+.row {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-style {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    display: inline-block;
+    box-shadow: 10px 1px 15px -10px #777;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 18px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 20px; 
+    border-radius: 50%;
+    background: #daf3f2;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 4px 3px;
+    text-decoration: none;
+}
+
+.main-nav li a i {
+    font-size: 18px;
 }
